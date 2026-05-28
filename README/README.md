@@ -69,15 +69,15 @@ sudo apt install -y --no-install-recommends \
 ```
 
 ### Clone repository
-Copy following code and enter in terminal
+Copy following code and enter in terminal:
 ```
 git clone https://github.com/AnnesofieAmaliePedersen/Marathon_to_Athens.git
 cd Marathon_to_Athens
 ```
 
 ### Data Sources
-Ancient road network dataset (European Space Agency (2024). Copernicus Global Digital Elevation Model. Distributed by OpenTopography. https://doi.org/10.5069/G9028PQB):
-From following site: https://zenodo.org/records/17122148 please:
+Ancient road network dataset (European Space Agency (2024). Copernicus Global Digital Elevation Model. Distributed by OpenTopography. https://doi.org/10.5069/G9028PQB).
+From following site https://zenodo.org/records/17122148 please:
 ```
 Download the `itinere_roads.geojson` dataset version 1.3
 Save it as:
@@ -85,9 +85,9 @@ Save it as:
 ```
 
 
-Digital Elevation Model (DEM) of Greece (de Soto, P., Pažout, A., Brughmans, T., Vahlstrup, P., Auir, A., Bongers, T., Christoffersen, J., Crépy, M., Johansen, M. H., Lewis, J., MANIERE, L., Massa, M., Møller, L. M. H., Redon, B., Renda, G., Şahin, H., Sobotkova, A., Spatzek, A. L., Verhagen, P., & Weissova, B. (2025). A High-Resolution Dataset of Roads of the Roman Empire: Itiner-e static version 2024 (1.3) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.17122148):
+Digital Elevation Model (DEM) of Greece (de Soto et al. (2025). A High-Resolution Dataset of Roads of the Roman Empire: Itiner-e static version 2024 (1.3) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.17122148).
 The DEM used in this project was manually downloaded from the OpenTopography portal using the Copernicus GLO-30 Global Digital Elevation Model (30 m resolution).
-From the following site: https://portal.opentopography.org/raster?opentopoID=OTSDEM.032021.4326.3 reproduce the DEM extraction by:
+From the following site https://portal.opentopography.org/raster?opentopoID=OTSDEM.032021.4326.3 reproduce the DEM extraction by:
 ```
 Opening the OpenTopography Copernicus GLO-30 interface.
 Selecting output format: GeoTIFF.
