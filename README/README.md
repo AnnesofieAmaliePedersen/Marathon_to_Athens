@@ -71,6 +71,8 @@ sudo apt install -y --no-install-recommends \
 ### Clone repository
 Copy following code and enter in terminal
 ```
+git clone https://github.com/AnnesofieAmaliePedersen/Marathon_to_Athens.git
+cd Marathon_to_Athens
 ```
 
 ### Data Sources
