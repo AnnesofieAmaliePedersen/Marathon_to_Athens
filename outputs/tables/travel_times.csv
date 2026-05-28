@@ -1,0 +1,4 @@
+model,distance_km,elevation_gain_m,elevation_loss_m,estimated_running_time_h
+Euclidean,35.4,1751.3,1700.9,5.6
+Ancient network,50.5,705.9,755.3,6.1
+Least-cost,39.3,674.3,623.9,4.7
