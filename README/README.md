@@ -80,7 +80,7 @@ Ancient road network dataset (European Space Agency (2024). Copernicus Global Di
 From following site https://zenodo.org/records/17122148 please:
 ```
 Download the `itinere_roads.geojson` dataset version 1.3
-Save it as:
+Save it in:
 `data/raw/itinere_roads.geojson`
 ```
 
@@ -96,7 +96,7 @@ xmin = 23.712615970987
 ymin = 37.953131615314
 xmax = 24.043304430786
 ymax = 38.190110645247
-Downloading the DEM and saving it as:
+Downloading the DEM, renaming it "greece_dem.tif", and saving it in:
 data/raw/greece_dem.tif
 ```
 The downloaded DEM is provided in EPSG:4326 geographic coordinates and is reprojected during analysis to match the projected CRS of the historical road network.
